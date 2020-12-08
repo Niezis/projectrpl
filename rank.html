@@ -1,0 +1,123 @@
+
+<html>
+
+    <head>
+          <!--Import Google Icon Font-->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <!--Import materialize.css-->
+            <link type="text/css" rel="stylesheet" href="style/css/materialize.min.css"  media="screen,projection"/>
+      <style>
+        body {
+          display: flex;
+          min-height: 100vh;
+          flex-direction: column;
+        }
+    
+        main {
+          flex: 1 0 auto;
+        }
+    
+        body {
+          background: #fff;
+        }
+    
+        .input-field input[type=date]:focus + label,
+        .input-field input[type=text]:focus + label,
+        .input-field input[type=email]:focus + label,
+        .input-field input[type=password]:focus + label {
+          color: #e91e63;
+        }
+    
+        .input-field input[type=date]:focus,
+        .input-field input[type=text]:focus,
+        .input-field input[type=email]:focus,
+        .input-field input[type=password]:focus {
+          border-bottom: 2px solid #e91e63;
+          box-shadow: none;
+        }
+      </style>
+    </head>
+    
+    <body>
+        <div class="navbar-fixed">
+            <nav class="blue darken-3">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="landing.html" class="brand-logo">RPL</a>
+                       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  
+                    </div>
+                </div>
+            </nav>
+        </div>
+  
+      <div class="section"></div>
+      <main>
+        <center>
+          <img class="responsive-img" style="width: 300px;" src="style/img/ranking.png" />
+          <div class="section"></div>
+    
+          <h5 class="blue-text darken-2 blue-text">Quiz Rank</h5>
+          <div class="section"></div>
+    
+          <div class="container">
+            <div class="z-depth-1 grey lighten-4 row" style="padding: 32px 20px 0px 20px; border: 1px solid #EEE;">
+    
+                <table class="highlight">
+                    <thead>
+                      <tr>
+                          <th>Rank</th>
+                          <th>User</th>
+                          <th>Score</th>
+                          <th>Time(minute)</th>
+                      </tr>
+                    </thead>
+            
+                    <tbody>
+                      <tr>
+                        <td name="nomer">1</td>
+                        <td>Malik</td>
+                        <td>90</td>
+                        <td>7.30</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Adi</td>
+                        <td>80</td>
+                        <td>8.35</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Imam</td>
+                        <td>70</td>
+                        <td>8.40</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+          </div>
+        </center>
+    
+        <div class='row' style="width: 320px;">
+          <br>
+          <br>
+          <br>
+            <type='submit' name='btn_login'  style="width: 320px;" class='col s12 btn btn-large waves-effect blue darken-2' ><a class="white-text darken-2 black-text" href=landing.html>Back</a></button>
+        </div>
+  
+        <div class="section"></div>
+        <div class="section"></div>
+      </main>
+    <script>
+     //membuat side bar
+            //membuat side bar
+            const sideNav = document.querySelectorAll('.sidenav');
+              M.Sidenav.init(sideNav);
+    </script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    </body>
+    
+    </html>
+    
+    
